@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escalation_Q_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Escalation Q</label>
+    <queue>Escalation_Q</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>
