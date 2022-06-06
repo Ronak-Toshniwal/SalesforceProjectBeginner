@@ -1,4 +1,4 @@
-trigger RegFormTrigger on Registration__c (after insert, before update) {
+trigger RegFormTrigger on Registration__c (before insert, before update) {
     if(trigger.isAfter ){
         if (trigger.isInsert){
             
@@ -91,7 +91,7 @@ trigger RegFormTrigger on Registration__c (after insert, before update) {
                     else {
                         rec.Priority__c = 1;
                     }
-                     update data;
+                    // update data;
                         system.debug(rec.Priority__c);
                     //===========Set Priority END=============
                     }
