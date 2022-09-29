@@ -1,4 +1,4 @@
-# SCENARIO of This Project
+# SCENARIO of This Projects
 ## Create Registration object with below mentioned field:
 - Previous class
 - Requested class for admission
