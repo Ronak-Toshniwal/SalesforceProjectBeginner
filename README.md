@@ -26,6 +26,7 @@
 - 85-90 => 2
 - 90-100 => 1
 
+
 ## Write logic in trigger to set priority for registration
 ### Logic to calculate eligibility score:
 ### Eligibility score values:
